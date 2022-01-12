@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    
+    <div class="header-warn">Cogu farm :) *Promoooooo*</div>
+
+    <header>
+        <img class="header-logo" src="./images/cogu-farm-logo.png">
+    </header>
+
+    <nav id="buttonCarrinho"class="navbar navbar-light">
+        <button class="btn btnPink" type="button" data-toggle="collapse" data-target="#lista-carrinho">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <div id="lista-carrinho" class="collapse navbar-collapse">Carrinho vazio :c</div>
+    
+    <main>
+        
+        <div class="avisos-absolutos">
+            <img id="aviso1" src="./images/chamada-1.png">
+            <img id="aviso2" src="./images/CHOCOGU-CHAMADA.png">
+        </div>
+
+        <video autoplay muted loop>
+            <source src="https://cdn.shopify.com/s/files/1/0016/1975/5059/files/MB-Holiday-Madness-Video-Background-Opt.mp4?v=1635861111"
+            type="video/mp4">
+        </video>
+
+    <marquee class="main-red-line" scrollamount="12"> 
+        <img class="mush-cont" id="mush-marquee" src="images/mush.gif"> 
+        <img class="mush-cont" id="mush-marquee" src="images/mush.gif">
+        <img class="mush-cont" id="mush-marquee" src="images/mush.gif"> 
+            ***COGU.SHOP*** acesse nosso insta :D ---> @cogu.shop || mariobossssssssss ***COGU.SHOP***  
+        <img class="mush-cont" id="mush-marquee" src="images/mush.gif">
+        <img class="mush-cont" id="mush-marquee" src="images/mush.gif">
+        <img class="mush-cont" id="mush-marquee" src="images/mush.gif"></marquee>
+        
+        <div class="lista-paginacao">
+            <ul class="nav nav-tabs nav-justified" id="containerProd">
+                <li class="nav-item"><a href="#containerProducts" id="carrinhoLista" class="nav-link active" data-toggle="tab">Carrinho</a></li>
+                <li class="nav-item"><a href="#reviewContainer" id="conclusaoLista" class="nav-link" data-toggle="tab">Conclua seu pedido</a></li>
+                <li class="nav-item"><a href="#endContainer" id="endLista" class="nav-link" data-toggle="tab">🍄❤️ ;) ❤️🍄</a></li>
+            </ul>
+        </div>
+        
+       
+
+        <div class="tab-content">
+            
+            <!--1-->
+            <div id="containerProducts" class="tab-pane active"></div>
+            <!--2-->
+            <div id="reviewContainer" class="tab-pane fade">
+                <div id="reviewConteudo"></div>
+                <div id="tableUser"></div>
+                <div id="agradecimentos">
+                    <h3>Obrigado por ter visitado nossa fazenda :)</h3>
+                    <h4>O pagamento é feito via pix.<br><br> chave: cogufarm@gmail.com</h4><br>
+                    <h5>Após o pagamento, mandar o comprovante para @cogu.farm (insta) ou cogufarm@gmail.com</h5>
+                </div>
+            </div>
+            <!--3-->
+            <div id="endContainer" class="tab-pane fade">
+                <div id="endContainerRight">
+                <h3>Obrigado por ter visitado nossa fazenda :)<br><br>
+                    🍄❤️ ;) ❤️🍄</h3>
+                </div>
+                <div id="endContainerLeft">
+                    <h3></h3>
+                    <h4>Lembrando que:<br><br>- O pagamento é feito via pix.<br><br>- a nossa chave é: cogufarm@gmail.com</h4><br>
+                    <h5>- Após o pagamento, mande o comprovante para @cogu.farm (insta) ou cogufarm@gmail.com</h5>
+                </div>
+                <div id="endContainerRight">
+                    <h4>Estarei te mandando o código de rastreio e todas as informações pelo instagram ou email<br><br>
+                        ,qualquer duvida me chama :D</h4>
+                </div>
+            </div>
+        </div>
+        
+
+</main>
+</body>
+    <footer id="footer">
+        *** cogu.shop 2021 ***
+    </footer>
+
+    
+    <!--bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!--firebase-->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-auth.js"></script>
+    
+    <!--arquivos-->
+    <script src="./firebase-comands.js"></script>
+    <script src="./script.js"></script>
+</html>
